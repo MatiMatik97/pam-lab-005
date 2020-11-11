@@ -2,19 +2,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="matkoz.lab.basiclab.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_first_fragment"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="@string/first_fragment_label"
         app:showAsAction="never" />
+
     <item
-        android:id="@+id/action_about"
+        android:id="@+id/action_second_fragment"
         android:orderInCategory="100"
-        android:title="@string/action_about"
+        android:title="@string/second_fragment_label"
         app:showAsAction="never" />
+
     <item
-        android:id="@+id/action_contact"
+        android:id="@+id/action_third_fragment"
         android:orderInCategory="100"
-        android:title="@string/action_contact"
+        android:title="@string/third_fragment_label"
         app:showAsAction="never" />
 </menu>
